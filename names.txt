@@ -17,3 +17,14 @@ sudo apt install gedit wireshark vsftpd -y -qq
 
 Bash script for useradd from text file
 for i in $(cat username.txt); do sudo useradd $i; echo "user $i added successfully!"; echo $i:$i"123" |chpasswd; echo "Password changed"; done
+
+Future images
+
+Forensics
+Forensics with - and space
+Korean and Japanese names (permutations of Park Son Kim Jung)
+Password policies
+Hosts
+Install/remove packages
+
+
