@@ -1,20 +1,16 @@
 #!/bin/bash
 
-sudo useradd saul
-sudo useradd luke
-sudo useradd joy
-sudo useradd judas
-sudo useradd pilate
-sudo useradd james
-sudo useradd grace
-sudo useradd jordan
-sudo useradd theresa
-sudo useradd phoebe
-sudo useradd peter
-sudo useradd john
-sudo passwd -d james
-sudo passwd -d judas
-sudo usermod -aG sudo judas
-sudo usermod -aG sudo james
-sudo chown joy /etc/passwd
+sudo useradd charizard
+sudo useradd squirtle
+sudo useradd umbreon 
+sudo useradd jugglypuff 
+sudo useradd raichu 
+sudo useradd espeon
+sudo useradd vaporeon
+sudo useradd arceus
+sudo useradd teamrocket
+sudo useradd ditto
+sudo usermod -aG sudo ditto
+sudo usermod -aG sudo arceus
+sudo chown umbreon /etc/passwd
 
